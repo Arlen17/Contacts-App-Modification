@@ -5,11 +5,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-public class ContactsAppModification extends Application {
+public class ContactsAppModified extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("ContactsAppModification.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ContactsAppModified.fxml"));
         primaryStage.setTitle("Contacts App");
         primaryStage.setScene(new Scene(root, 630, 400));
         primaryStage.show();
